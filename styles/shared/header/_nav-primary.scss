@@ -1,0 +1,25 @@
+.nav-main {
+  text-align: center;
+  margin-top: 250px;
+  background-color: $brand-primary;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 5px;
+
+    a {
+      text-transform: uppercase;
+      color: $gray-secondary;
+      font-size: 20px;
+      font-family: 'Playfair Display', 'regular';
+      font-weight: 300;
+      transition: color 0.2s linear, background-color 0.2s linear;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

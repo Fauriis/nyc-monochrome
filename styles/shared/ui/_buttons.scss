@@ -1,0 +1,12 @@
+.button {
+  background-color: $gray-primary;
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 16px;
+  font-size: 16px;
+  border: 0;
+}
+
+.button-large {
+  background-color: $brand-primary;
+}

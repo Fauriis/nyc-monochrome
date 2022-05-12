@@ -1,0 +1,101 @@
+.header {
+  &-secondary {
+    background-color: red;
+  }
+
+  &-controls {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 16px;
+      color: $black;
+
+      li:first-child {
+        text-transform: uppercase;
+        font-size: 19px;
+        justify-content: start;
+        align-items: flex-start;
+        font-family: 'Baskerville Old Face BQ', 'regular';
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &-connect {
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+      justify-self: start;
+      align-self: center;
+      margin-top: 10px;
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+    }
+
+    &-controls {
+      position: absolute;
+      top: 10px;
+      right: 80px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      form {
+        position: relative;
+        right: 180px;
+        top: 30px;
+      }
+
+      button {
+        position: absolute;
+        left: 5px;
+        top: 2px;
+        border: none;
+        background-color: $white;
+      }
+
+      ul {
+        gap: 16px;
+      }
+    }
+  }
+
+  &-search {
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+    background-color: $brand-primary;
+    height: 50px;
+
+    a {
+      color: $white;
+      align-items: start;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    form {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      button {
+        background-color: transparent;
+        border: none;
+        color: $white;
+        position: relative;
+        right: 30px;
+        opacity: 70%;
+      }
+
+      input[type='text'] {
+        background-color: transparent;
+        border: 1px solid $white;
+      }
+    }
+  }
+}
