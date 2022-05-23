@@ -21,7 +21,8 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title d-none d-sm-block">
-              <span>New stuff</span>{' '}
+              <span>New stuff</span>
+              {}
             </h1>
             <h1 className="section-title d-block d-lg-none">
               <span>Spring Collection</span>
@@ -110,7 +111,8 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title">
-              <span>Men's</span>{' '}
+              <span>Men's</span>
+              {}
             </h1>
           </header>
 
@@ -141,7 +143,8 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title">
-              <span>Women's</span>{' '}
+              <span>Women's</span>
+              {}
             </h1>
           </header>
 

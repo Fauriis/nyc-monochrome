@@ -117,13 +117,13 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="" title="Men's">
+              <a href="" title="Mens">
                 Men's
               </a>
             </li>
 
             <li>
-              <a href="" title="Women's">
+              <a href="" title="Womens">
                 Women's
               </a>
             </li>
