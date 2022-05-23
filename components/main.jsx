@@ -112,7 +112,7 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title">
-              <span>Men's</span>
+              <span>Men`s</span>
               {}
             </h1>
           </header>
@@ -144,7 +144,7 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title">
-              <span>Women's</span>
+              <span>Women`s</span>
               {}
             </h1>
           </header>
