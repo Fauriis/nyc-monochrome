@@ -118,13 +118,13 @@ export default function Header() {
 
             <li>
               <a href="" title="Mens">
-                Men's
+                Men`s
               </a>
             </li>
 
             <li>
               <a href="" title="Womens">
-                Women's
+                Women`s
               </a>
             </li>
 

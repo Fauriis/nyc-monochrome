@@ -50,7 +50,8 @@ export default function Main() {
           <div className="border-top"></div>
           <header>
             <h1 className="section-title d-none d-sm-block">
-              <span>Most loved</span>{' '}
+              <span>Most loved</span>
+              {}
             </h1>
             <h1 className="section-title d-block d-lg-none">
               <span>Best reviewed</span>

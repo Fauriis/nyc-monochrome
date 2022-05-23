@@ -3,7 +3,7 @@ export default function FooterResponsive() {
     <footer className="footer-responsive d-block d-lg-none">
       <footer className="responsive container">
         <section className="footer-newsletter">
-          <h1>Let's connect</h1>
+          <h1>Let`s connect</h1>
           <p>Be the first to receive exclusives offers</p>
           <form action="">
             <input
@@ -18,10 +18,11 @@ export default function FooterResponsive() {
             submit
           </button>
           <p>
-            I agree with{' '}
+            I agree with{}
             <a href="http://" target="_blank" rel="noopener noreferrer">
               Privacy Policy
-            </a>{' '}
+            </a>
+            {}
             and i want to receive emails from Monochrome
           </p>
         </section>
