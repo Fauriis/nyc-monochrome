@@ -12,7 +12,7 @@ export default function Header() {
                   title="Youtube"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
@@ -23,7 +23,7 @@ export default function Header() {
                   title="Twitter"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
@@ -34,7 +34,7 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
 
@@ -45,7 +45,7 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
@@ -64,7 +64,7 @@ export default function Header() {
           <div className="header-controls">
             <form action="" className="d-none d-sm-block">
               <button type="button" className="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <input
@@ -82,18 +82,18 @@ export default function Header() {
             <ul>
               <li>
                 <a href="" title="User">
-                  <i class="fa-solid fa-user"></i>
+                  <i className="fa-solid fa-user"></i>
                 </a>
               </li>
               <li>
                 <a href="" title="Wishlist">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Cart">
-                  <i class="fa-solid fa-bag-shopping"></i>
+                  <i className="fa-solid fa-bag-shopping"></i>
                 </a>
               </li>
             </ul>
@@ -146,7 +146,7 @@ export default function Header() {
           <nav className="nav-menu">
             <div className="menu-search">
               <a href="" title="menu">
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
               </a>
 
               <form action="">
@@ -158,7 +158,7 @@ export default function Header() {
                 ></input>
 
                 <button className="search" type="submit" title="search">
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
               </form>
             </div>

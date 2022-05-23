@@ -10,7 +10,7 @@ export default function ProductTile() {
         <div className="product-tile-badge">
           <a href="" title="Wishlist" className="cta">
             <span className="product-badge">
-              <i class="fa-solid fa-heart"></i>
+              <i className="fa-solid fa-heart"></i>
             </span>
           </a>
         </div>

@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from `next/head`;
 
 export default function test() {
   return (
@@ -14,7 +14,7 @@ export default function test() {
                   title="Youtube"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
@@ -25,7 +25,7 @@ export default function test() {
                   title="Twitter"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
@@ -36,7 +36,7 @@ export default function test() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i className="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
 
@@ -47,7 +47,7 @@ export default function test() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
@@ -62,7 +62,7 @@ export default function test() {
           <div className="header-connect">
             <form action="">
               <button type="button" className="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
 
               <input
@@ -78,18 +78,18 @@ export default function test() {
             <ul>
               <li>
                 <a href="" title="User">
-                  <i class="fa-solid fa-user"></i>
+                  <i className="fa-solid fa-user"></i>
                 </a>
               </li>
               <li>
                 <a href="" title="Wishlist">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Cart">
-                  <i class="fa-solid fa-bag-shopping"></i>
+                  <i className="fa-solid fa-bag-shopping"></i>
                 </a>
               </li>
             </ul>
@@ -113,14 +113,14 @@ export default function test() {
             </li>
 
             <li>
-              <a href="" title="Men's">
-                Men's
+              <a href="" title="Men`s">
+                Men`s
               </a>
             </li>
 
             <li>
-              <a href="" title="Women's">
-                Women's
+              <a href="" title="Women`s">
+                Women`s
               </a>
             </li>
 
@@ -141,7 +141,7 @@ export default function test() {
         <nav className="nav-menu d-block d-sm-none">
           <div className="menu-search">
             <a href="" title="menu">
-              <i class="fa-solid fa-bars"></i>
+              <i className="fa-solid fa-bars"></i>
             </a>
 
             <form action="">
@@ -153,7 +153,7 @@ export default function test() {
               ></input>
 
               <button className="search" type="submit" title="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
             </form>
           </div>

@@ -37,7 +37,7 @@ export default function FooterResponsive() {
                 rel="noopener noreferrer"
                 title="Youtube"
               >
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i>
               </a>
             </li>
 
@@ -48,7 +48,7 @@ export default function FooterResponsive() {
                 rel="noopener noreferrer"
                 title="Twitter"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
             </li>
 
@@ -59,7 +59,7 @@ export default function FooterResponsive() {
                 rel="noopener noreferrer"
                 title="Facebook"
               >
-                <i class="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-facebook-f"></i>
               </a>
             </li>
 
@@ -70,7 +70,7 @@ export default function FooterResponsive() {
                 rel="noopener noreferrer"
                 title="Instagram"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
           </ul>

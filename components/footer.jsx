@@ -100,7 +100,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Urmareste-ne pe Youtube"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
@@ -111,7 +111,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Urmareste-ne pe Twitter"
                 >
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
@@ -122,7 +122,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Urmareste-ne pe Facebook"
                 >
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
@@ -133,7 +133,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title="Urmareste-ne pe Instagram"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
             </ul>
