@@ -12,12 +12,21 @@
 @import './../node_modules/bootstrap/scss/bootstrap-reboot';
 @import './../node_modules/bootstrap/scss/bootstrap-grid';
 @import './../node_modules/bootstrap/scss/bootstrap-utilities';
+@import './../node_modules/bootstrap/scss/images';
 
 @import 'variables';
 @import './reset';
 
 // site
 @import './shared/index';
+
+// homepage
+
+@import './homepage/index';
+
+// catalog
+
+@import './catalog/index';
 
 body {
   font-family: 'Roboto', 'sans-serif';

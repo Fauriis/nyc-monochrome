@@ -1,0 +1,40 @@
+@import './banner-resp';
+@import './home-catalog-preview';
+
+.content-main {
+  margin-top: 33px;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 70px;
+  }
+
+  & > section {
+    margin-bottom: 70px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 100px;
+    }
+  }
+
+  .section-title {
+    color: $brand-primary;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 37px;
+      color: $black;
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .product-tiles {
+    margin-bottom: 50px;
+  }
+}

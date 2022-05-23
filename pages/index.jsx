@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Footer from '../components/footer';
+import FooterResponsive from '../components/footer-responsive';
 import Header from '../components/header';
 import Main from '../components/main';
 
@@ -15,6 +16,8 @@ export default function Home() {
       <Header></Header>
 
       <Main></Main>
+
+      <FooterResponsive></FooterResponsive>
 
       <Footer></Footer>
     </div>

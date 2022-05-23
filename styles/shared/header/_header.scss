@@ -1,87 +1,85 @@
 .header {
-  &-secondary {
-    background-color: red;
+  .header-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    a:first-of-type {
+      font-size: 20px;
+      color: $black;
+      text-transform: uppercase;
+      font-family: 'Baskerville Old Face BQ', 'regular';
+    }
+
+    ul {
+      display: inline-flex;
+      gap: 36px;
+    }
   }
 
-  &-controls {
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      gap: 16px;
-      color: $black;
+  .header-connect ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: $white;
+    padding-top: 45px;
 
-      li:first-child {
-        text-transform: uppercase;
-        font-size: 19px;
-        justify-content: start;
-        align-items: flex-start;
-        font-family: 'Baskerville Old Face BQ', 'regular';
-      }
+    .span {
+      text-transform: uppercase;
+      font-family: 'Playfair Display';
     }
   }
 
   @include media-breakpoint-up(lg) {
-    &-connect {
-      grid-column: 1 / span 1;
-      grid-row: 1 / span 1;
-      justify-self: start;
-      align-self: center;
-      margin-top: 10px;
-
-      ul {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-      }
-    }
-
-    &-controls {
-      position: absolute;
-      top: 10px;
-      right: 80px;
-      display: flex;
+    .header-controls {
+      align-items: flex-end;
       justify-content: flex-end;
-      align-items: center;
+      margin-right: 100px;
+      gap: 30px;
 
       form {
-        position: relative;
-        right: 180px;
-        top: 30px;
-      }
+        button {
+          border: none;
+          background-color: $white;
+          position: relative;
+          left: 28px;
+        }
 
-      button {
-        position: absolute;
-        left: 5px;
-        top: 2px;
-        border: none;
-        background-color: $white;
-      }
-
-      ul {
-        gap: 16px;
+        input {
+          text-align: center;
+          font-weight: 500;
+          background-color: transparent;
+          border: 1px solid $gray-primary;
+        }
       }
     }
   }
 
-  &-search {
-    display: flex;
-    justify-self: flex-start;
-    align-self: center;
+  .menu-bar {
     background-color: $brand-primary;
-    height: 50px;
+    height: 55px;
+    width: 390px;
+  }
+
+  .menu-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     a {
-      color: $white;
-      align-items: start;
-      justify-content: center;
-      font-size: 20px;
+      color: white;
+      font-size: 26px;
+      margin: 20px;
     }
 
     form {
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
+      align-items: center;
+
+      input[type='text'] {
+        background-color: transparent;
+        border: 1px solid $white;
+      }
 
       button {
         background-color: transparent;
@@ -90,11 +88,6 @@
         position: relative;
         right: 30px;
         opacity: 70%;
-      }
-
-      input[type='text'] {
-        background-color: transparent;
-        border: 1px solid $white;
       }
     }
   }
