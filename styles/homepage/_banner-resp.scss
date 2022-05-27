@@ -4,11 +4,11 @@
   height: 220px;
 
   .banner-resp-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: inherit;
+    position: absolute;
+    top: 28%;
+    left: 70%;
+    width: 30%;
+    height: 50px;
     color: $white;
 
     .banner-info {

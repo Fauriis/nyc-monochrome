@@ -35,7 +35,6 @@
     .header-controls {
       align-items: flex-end;
       justify-content: flex-end;
-      margin-right: 100px;
       gap: 30px;
 
       form {
@@ -43,7 +42,7 @@
           border: none;
           background-color: $white;
           position: relative;
-          left: 28px;
+          left: 30px;
         }
 
         input {
@@ -60,6 +59,7 @@
     background-color: $brand-primary;
     height: 55px;
     width: 390px;
+    width: 100%;
   }
 
   .menu-search {
@@ -90,5 +90,14 @@
         opacity: 70%;
       }
     }
+  }
+}
+
+.header .top-inner {
+  @include media-breakpoint-up(lg) {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
   }
 }

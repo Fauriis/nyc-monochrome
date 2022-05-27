@@ -79,7 +79,7 @@ export default function Footer() {
         </nav>
 
         <section className="footer-connect">
-          <div className="news">
+          <div className="news mt-4">
             <form action="">
               <label htmlFor="newsletter" id="newsletter" name="newsletter">
                 sign up for our newsletter

@@ -5,8 +5,8 @@ export default function Main() {
   return (
     <main className="content">
       <header className="content-header d-block d-lg-none">
-        <div className="banner-resp">
-          <div className="banner-resp-inner container">
+        <div className="banner-resp container">
+          <div className="banner-resp-inner">
             <div className="banner-info">
               <a href="" title="New in" className="new">
                 New in
