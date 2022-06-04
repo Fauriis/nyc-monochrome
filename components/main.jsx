@@ -77,7 +77,7 @@ export default function Main() {
           </section>
         </section>
 
-        <section className="home-info">
+        <section className="home-info container">
           <div className="home-image">
             <img src="/images/main-content-img.png" alt="Home-image"></img>
           </div>

@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="header">
       <section className="header-top">
-        <section className="top-inner container">
+        <section className="top-inner">
           <div className="header-connect d-none d-sm-block">
             <ul>
               <li>
@@ -75,11 +75,11 @@ export default function Header() {
               ></input>
             </form>
 
-            <a title="Monochrome" className="span d-block d-lg-none">
+            <a title="Monochrome" className="span d-block d-lg-none mx-2">
               Monochrome
             </a>
 
-            <ul>
+            <ul className="mx-4">
               <li>
                 <a href="" title="User">
                   <i className="fa-solid fa-user"></i>
@@ -98,6 +98,33 @@ export default function Header() {
               </li>
             </ul>
           </div>
+
+          <section className="menu-bar d-block d-sm-none">
+            <div className="menu-search">
+              <ul>
+                <li>
+                  <a href="" title="menu">
+                    <i className="fa-solid fa-bars"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <form action="">
+                    <input
+                      type="text"
+                      placeholder="search"
+                      name="search"
+                      title="search"
+                    ></input>
+
+                    <button className="search" type="submit" title="search">
+                      <i className="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </section>
         </section>
       </section>
 
@@ -141,29 +168,6 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-
-        <section className="menu-bar d-block d-sm-none">
-          <nav className="nav-menu">
-            <div className="menu-search">
-              <a href="" title="menu">
-                <i className="fa-solid fa-bars"></i>
-              </a>
-
-              <form action="">
-                <input
-                  type="text"
-                  placeholder="Search"
-                  name="search"
-                  title="search"
-                ></input>
-
-                <button className="search" type="submit" title="search">
-                  <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </form>
-            </div>
-          </nav>
-        </section>
       </section>
     </header>
   );

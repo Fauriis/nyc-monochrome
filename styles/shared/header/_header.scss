@@ -54,43 +54,6 @@
       }
     }
   }
-
-  .menu-bar {
-    background-color: $brand-primary;
-    height: 55px;
-    width: 390px;
-    width: 100%;
-  }
-
-  .menu-search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    a {
-      color: white;
-      font-size: 26px;
-      margin: 20px;
-    }
-
-    form {
-      align-items: center;
-
-      input[type='text'] {
-        background-color: transparent;
-        border: 1px solid $white;
-      }
-
-      button {
-        background-color: transparent;
-        border: none;
-        color: $white;
-        position: relative;
-        right: 30px;
-        opacity: 70%;
-      }
-    }
-  }
 }
 
 .header .top-inner {
@@ -99,5 +62,89 @@
     padding-right: 30px;
     display: flex;
     justify-content: space-around;
+  }
+}
+
+.header-top {
+  .menu-bar {
+    background-color: $brand-primary;
+    width: 480px;
+    height: 50px;
+    max-width: 100%;
+  }
+
+  .menu-bar {
+    .menu-search ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    a {
+      color: $white;
+      font-size: 26px;
+    }
+  }
+
+  .menu-search {
+    form {
+      padding-left: 35px;
+      padding-top: 5px;
+    }
+    input[type='text'] {
+      background-color: transparent;
+      border: 1px solid $white;
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+      color: $white;
+      position: relative;
+      right: 30px;
+      opacity: 70%;
+      text-decoration: none;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header-connect li:nth-of-type(5) {
+    cursor: pointer;
+    color: $white;
+    animation: none;
+    transition: color 0.2s linear, background-color 0.2s linear;
+  }
+
+  .header-connect li:nth-of-type(5):hover {
+    animation: none;
+    text-decoration: overline;
+    color: $gray-secondary;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header-connect li:hover {
+    animation: mymove 1s linear;
+    cursor: pointer;
+  }
+
+  @keyframes mymove {
+    50% {
+      transform: scaleY(1.2) scaleX(1.2);
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header-controls li:hover {
+    animation: controls 1s linear;
+    cursor: pointer;
+  }
+
+  @keyframes controls {
+    50% {
+      transform: rotate(120deg);
+    }
   }
 }

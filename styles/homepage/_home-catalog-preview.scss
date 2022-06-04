@@ -34,8 +34,8 @@
       width: 306px;
       height: 206px;
       align-items: center;
-      margin-left: 34px;
-      margin-right: 35px;
+      margin-left: 24px;
+      margin-right: 34px;
     }
 
     .info-text {
@@ -61,8 +61,6 @@
 
     @include media-breakpoint-up(lg) {
       .home-image {
-        margin-left: 100px;
-
         img {
           width: 666px;
           height: 666px;
@@ -75,12 +73,14 @@
       flex-direction: row;
       justify-content: space-between;
 
-      header h1 {
-        text-align: center;
-        font-weight: bold;
-        font-size: 30px;
-        color: $brand-primary;
-        font-family: 'Playfair Display';
+      .info-text {
+        h1 {
+          text-align: center;
+          font-weight: bold;
+          font-size: 30px;
+          color: $brand-primary;
+          font-family: 'Playfair Display';
+        }
       }
 
       .info-text {
@@ -88,7 +88,7 @@
         line-height: 200%;
         font-family: 'Roboto';
         font-weight: light;
-        font-size: 20px;
+        font-size: 22px;
         margin: 10px 120px 60px 28px;
         color: $brand-primary;
 

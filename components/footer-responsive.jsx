@@ -18,12 +18,11 @@ export default function FooterResponsive() {
             submit
           </button>
           <p>
-            I agree with{}
+            I agree with {}
             <a href="http://" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </a>
-            {}
-            and i want to receive emails from Monochrome
+            {} and i want to receive emails from Monochrome
           </p>
         </section>
 
